@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8" />
+          <meta
+               name="viewport"
+               content="width=device-width, initial-scale=1.0"
+          />
+          <link
+               rel="icon"
+               type="image/png"
+               sizes="32x32"
+               href="./images/favicon-32x32.png"
+          />
+          <title>Frontend Mentor | Todo app</title>
+          <link rel="stylesheet" href="style.css" />
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+          <link
+               href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&amp;display=swap"
+               rel="stylesheet"
+          />
+          <link
+               href="https://fonts.googleapis.com/icon?family=Material+Icons"
+               rel="stylesheet"
+          />
+     </head>
+     <body>
+          <div class="container">
+               <div class="container-todos">
+                    <header>
+                         <h1>Todo</h1>
+                         <img
+                              src="./images/icon-sun.svg"
+                              alt="theme-toggle"
+                              class="icon-sun"
+                         />
+                    </header>
+
+                    <div class="input-todo">
+                         <input
+                              type="text"
+                              placeholder="Create a new todo..."
+                              autocomplete="off"
+                         />
+                         <span class="material-icons add-icon">maps_ugc</span>
+                    </div>
+
+                    <div class="todos"></div>
+
+                    <div class="tools-container">
+                         <span class="items-left">0 item left</span>
+                         <div class="filter">
+                              <button data-all class="all">All</button>
+                              <button data-active class="active">Active</button>
+                              <button data-completed class="completed">
+                                   Completed
+                              </button>
+                         </div>
+                         <button class="clear">Clear Completed</button>
+                    </div>
+
+                    <div class="attribution">
+                         Challenge by
+                         <a
+                              href="https://www.frontendmentor.io?ref=challenge"
+                              target="_blank"
+                              rel="noopener"
+                              >Frontend Mentor</a
+                         >. Coded by <a href="#">Ali Safaa</a>.
+                    </div>
+               </div>
+          </div>
+
+          <script src="./script.js"></script>
+     </body>
+</html>
